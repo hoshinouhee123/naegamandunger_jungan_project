@@ -22,6 +22,12 @@ public class PlayerController : MonoBehaviour
     public float obstacleCheckRadius = 0.2f; // 장애물 감지 범위
     private float moveInput;
 
+    // 원래 점프력을 기억해둘 변수
+    private float originalJumpForce;
+
+    // 점프력 버프 타이머 관련 변수들
+    private float boostTimer = 0f;     // 남은 버프 시간
+    private bool isBoosted = false;    // 현재 버프 상태인지 확인
 
     private SpriteRenderer spriteRenderer;
 
@@ -29,6 +35,8 @@ public class PlayerController : MonoBehaviour
     {
         // 게임이 시작될 때 원래 속도를 저장해 둡니다.
         originalSpeed = moveSpeed;
+        // 게임이 시작될 때 원래의 기본 점프력을 저장해 둡니다.
+        originalJumpForce = jumpForce;
     }
 
 
@@ -86,6 +94,22 @@ public class PlayerController : MonoBehaviour
                 isSpeedBoosted = false;    // 버프 상태 끄기
             }
         }
+
+        // 2. 타이머 로직 (점프력 버프 상태일 때만 작동)
+        if (isBoosted)
+        {
+            // Time.deltaTime은 이전 프레임부터 지금까지 걸린 시간(초)입니다.
+            // 남은 시간에서 계속 빼줍니다.
+            boostTimer -= Time.deltaTime;
+
+            // 남은 시간이 0 이하가 되면 버프 종료
+            if (boostTimer <= 0f)
+            {
+                isBoosted = false;                // 버프 상태 해제
+                jumpForce = originalJumpForce;    // 점프력을 원래대로 복구
+                Debug.Log("점프력 버프 종료! 현재 점프력: " + jumpForce);
+            }
+        }
     }
 
     public void OnMove(InputValue value)
@@ -140,5 +164,19 @@ public class PlayerController : MonoBehaviour
         // 시간은 무조건 다시 꽉 채워줍니다. (연속으로 먹으면 지속 시간이 갱신됨)
         speedBoostTimer = duration;
         isSpeedBoosted = true; // 버프 상태 켜기
+    }
+
+    // 아이템이 호출할 함수
+    public void IncreaseJumpPower(float amount, float duration)
+    {
+        // 버프 중이 아닐 때만 점프력을 올림 (중복 적용 방지)
+        if (!isBoosted)
+        {
+            jumpForce += amount;
+            isBoosted = true;
+        }
+
+        // 시간은 무조건 다시 7초(duration)로 꽉 채워줌 (아이템을 연속으로 먹었을 때 연장 효과)
+        boostTimer = duration;
     }
 }
