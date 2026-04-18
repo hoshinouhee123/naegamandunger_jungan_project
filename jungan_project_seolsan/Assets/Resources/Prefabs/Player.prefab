@@ -281,6 +281,7 @@ GameObject:
   - component: {fileID: 7153159377651773131}
   - component: {fileID: 3059479560314596103}
   - component: {fileID: 870797929908798245}
+  - component: {fileID: 7798652257233792667}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -438,7 +439,7 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!61 &3059479560314596103
 BoxCollider2D:
@@ -508,3 +509,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &7798652257233792667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3403585156446544150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 983fafbc0cd42dd49b74a9b1a9a3c545, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Choongdol_GameOver
+  gameOverPanel: {fileID: 0}
+  Player: {fileID: 3403585156446544150}
+  isInvincible: 0
+  invincibilityDuration: 5

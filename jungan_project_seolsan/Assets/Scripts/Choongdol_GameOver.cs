@@ -6,6 +6,7 @@ public class Choongdol_GameOver : MonoBehaviour
     [Header("UI Settings")]
     // 게임 오버 패널을 연결할 변수입니다.
     public GameObject gameOverPanel;
+    public GameObject Player;
 
 
     [Header("Invincibility Settings")]
@@ -33,7 +34,45 @@ public class Choongdol_GameOver : MonoBehaviour
             }
 
             // (선택 사항) 부딪히자마자 게임을 멈추고 싶다면 아래 주석을 해제하세요.
-            Time.timeScale = 0f; 
+            Time.timeScale = 0f;
+        }
+
+        // 부딪힌 대상(gameObject)의 태그가 "ChuRak"인지 확인합니다.
+        if (collision.gameObject.CompareTag("ChuRak"))
+        {
+            // 플레이어 오브젝트 파괴
+            Destroy(Player);
+            // 게임 오버 패널을 활성화하여 화면에 띄웁니다.
+            if (gameOverPanel != null)
+            {
+                gameOverPanel.SetActive(true);
+            }
+
+            // (선택 사항) 부딪히자마자 게임을 멈추고 싶다면 아래 주석을 해제하세요.
+            Time.timeScale = 0f;
+        }
+    }
+
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        // 닿아있는 대상(gameObject)의 태그가 "Obstacle"인지 확인합니다.
+        if (collision.gameObject.CompareTag("Obstacle"))
+        {
+            // [추가된 핵심 코드] 무적 상태일 때는 여기서 함수를 종료합니다.
+            // 무적이 풀리는 순간(isInvincible이 false가 되면) 이 줄을 통과해서 게임 오버가 됩니다!
+            if (isInvincible)
+            {
+                return;
+            }
+
+            // 게임 오버 패널을 활성화하여 화면에 띄웁니다.
+            if (gameOverPanel != null)
+            {
+                gameOverPanel.SetActive(true);
+            }
+
+            // (선택 사항) 부딪히자마자 게임을 멈추고 싶다면 아래 주석을 해제하세요.
+            Time.timeScale = 0f;
         }
     }
 
@@ -47,21 +86,26 @@ public class Choongdol_GameOver : MonoBehaviour
         }
     }
 
-    // 시간의 흐름을 관리하는 코루틴 (일정 시간 뒤에 실행할 코드를 짤 때 아주 유용합니다)
     private IEnumerator InvincibilityRoutine()
     {
         isInvincible = true; // 무적 켜기
 
-        // (선택 사항) 무적임을 플레이어가 알 수 있게 캐릭터를 반투명하게 만듭니다.
         SpriteRenderer sr = GetComponent<SpriteRenderer>();
         Color originalColor = sr.color;
         sr.color = new Color(originalColor.r, originalColor.g, originalColor.b, 0.5f);
 
-        // 정해진 시간(invincibilityDuration)만큼 기다립니다.
+        // 정해진 시간만큼 기다립니다.
         yield return new WaitForSeconds(invincibilityDuration);
 
         // 무적 끄기 및 색상 원상복구
         isInvincible = false;
         sr.color = originalColor;
+
+        // [수정 2] 무적이 끝나는 순간 잠들어있을 수 있는 물리 엔진을 강제로 깨웁니다.
+        // 그러면 장애물과 닿아있을 경우 OnCollisionStay2D가 즉시 다시 실행되어 게임오버가 됩니다.
+        if (GetComponent<Rigidbody2D>() != null)
+        {
+            GetComponent<Rigidbody2D>().WakeUp();
+        }
     }
 }
