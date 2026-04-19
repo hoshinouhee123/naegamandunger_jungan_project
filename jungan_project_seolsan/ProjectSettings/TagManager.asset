@@ -21,8 +21,8 @@ TagManager:
   - Invincible
   - ObstacleLayer
   - BossCH
-  - 
-  - 
+  - BossWall
+  - PlayerCh
   - 
   - 
   - 
