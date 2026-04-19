@@ -39,12 +39,11 @@ public class PlayerController : MonoBehaviour
         originalJumpForce = jumpForce;
     }
 
-
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         pAni = GetComponent<Animator>();
-        SpriteRenderer spriteRenderer;
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     void Update()
@@ -72,8 +71,11 @@ public class PlayerController : MonoBehaviour
 
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
 
+        // ★ 매 프레임마다 바닥 판정 변수들을 초기화합니다 (무한 점프 방지)
+        isObstacle = false;
+
         Collider2D[] colliders = Physics2D.OverlapCircleAll(groundCheck.position, obstacleCheckRadius);
-        foreach(Collider2D col in colliders)
+        foreach (Collider2D col in colliders)
         {
             if (col.CompareTag("Obstacle"))
             {
@@ -95,7 +97,7 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        // 2. 타이머 로직 (점프력 버프 상태일 때만 작동)
+        // --- 점프력 버프 타이머 로직 ---
         if (isBoosted)
         {
             // Time.deltaTime은 이전 프레임부터 지금까지 걸린 시간(초)입니다.
@@ -120,12 +122,12 @@ public class PlayerController : MonoBehaviour
 
     public void OnJump(InputValue value)
     {
-        // 논리 오류 수정: value.isPressed가 눌렸을 때, (바닥이거나 장애물일 경우)로 괄호를 묶어주어야 합니다.
+        // ★ 점프 조건 논리 수정: (바닥이거나 장애물일 때) 점프!
         if (value.isPressed && (isGrounded || isObstacle))
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0f);
 
-            // ★ 추가된 부분: 중력 상태에 따라 점프 방향 결정
+            // 중력 상태에 따라 점프 방향 결정
             Vector2 jumpDirection = Vector2.up; // 기본값은 위쪽 방향
 
             if (rb.gravityScale < 0)
@@ -176,7 +178,7 @@ public class PlayerController : MonoBehaviour
             isBoosted = true;
         }
 
-        // 시간은 무조건 다시 7초(duration)로 꽉 채워줌 (아이템을 연속으로 먹었을 때 연장 효과)
+        // 시간은 무조건 다시 지정된 시간(duration)으로 꽉 채워줌 (아이템을 연속으로 먹었을 때 연장 효과)
         boostTimer = duration;
     }
 }
