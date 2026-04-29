@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class PlayerController : MonoBehaviour
 {
@@ -31,6 +32,8 @@ public class PlayerController : MonoBehaviour
 
     private SpriteRenderer spriteRenderer;
 
+    public static float Score;
+
     void Start()
     {
         // 게임이 시작될 때 원래 속도를 저장해 둡니다.
@@ -44,6 +47,7 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         pAni = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        Score = 0f;
     }
 
     void Update()
@@ -150,7 +154,12 @@ public class PlayerController : MonoBehaviour
 
         if (collision.CompareTag("Finish"))
         {
+            HighScore.TrySet(SceneManager.GetActiveScene().buildIndex, (int)Score);
             collision.GetComponent<LevelObject>().MoveToNextLevel();
+        }
+        if (collision.CompareTag("Finish"))
+        {
+            Score += 450f;
         }
     }
 

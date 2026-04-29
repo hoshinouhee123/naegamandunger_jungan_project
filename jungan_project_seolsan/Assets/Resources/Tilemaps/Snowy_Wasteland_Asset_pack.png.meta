@@ -1,0 +1,871 @@
+fileFormatVersion: 2
+guid: fa9dcffa4e19d6a4f8a8e3b08f664fe0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3430067429486080853
+    second: Snowy_Wasteland_Asset_pack_0
+  - first:
+      213: 5804533886040709307
+    second: Snowy_Wasteland_Asset_pack_1
+  - first:
+      213: 1927600818489644983
+    second: Snowy_Wasteland_Asset_pack_2
+  - first:
+      213: 6094005407452671029
+    second: Snowy_Wasteland_Asset_pack_3
+  - first:
+      213: -9154293200316764568
+    second: Snowy_Wasteland_Asset_pack_4
+  - first:
+      213: -4465467434695212115
+    second: Snowy_Wasteland_Asset_pack_5
+  - first:
+      213: -782365322963119425
+    second: Snowy_Wasteland_Asset_pack_6
+  - first:
+      213: 6208137870639451771
+    second: Snowy_Wasteland_Asset_pack_7
+  - first:
+      213: -4508350868301910739
+    second: Snowy_Wasteland_Asset_pack_8
+  - first:
+      213: -7957885154917700414
+    second: Snowy_Wasteland_Asset_pack_9
+  - first:
+      213: -2139564550742501713
+    second: Snowy_Wasteland_Asset_pack_10
+  - first:
+      213: 1318756454076863696
+    second: Snowy_Wasteland_Asset_pack_11
+  - first:
+      213: -4003059524529344103
+    second: Snowy_Wasteland_Asset_pack_12
+  - first:
+      213: -3255288690833076157
+    second: Snowy_Wasteland_Asset_pack_13
+  - first:
+      213: -8584653954627642001
+    second: Snowy_Wasteland_Asset_pack_14
+  - first:
+      213: -613181230501353664
+    second: Snowy_Wasteland_Asset_pack_15
+  - first:
+      213: 1657623570342131169
+    second: Snowy_Wasteland_Asset_pack_16
+  - first:
+      213: -8058719401183112715
+    second: Snowy_Wasteland_Asset_pack_17
+  - first:
+      213: 5820974572110695270
+    second: Snowy_Wasteland_Asset_pack_18
+  - first:
+      213: -866201479941549646
+    second: Snowy_Wasteland_Asset_pack_19
+  - first:
+      213: -4266433246973431447
+    second: Snowy_Wasteland_Asset_pack_20
+  - first:
+      213: 5379639927409396078
+    second: Snowy_Wasteland_Asset_pack_21
+  - first:
+      213: 8767287990502830508
+    second: Snowy_Wasteland_Asset_pack_22
+  - first:
+      213: -5880244123553598843
+    second: Snowy_Wasteland_Asset_pack_23
+  - first:
+      213: 7983642578620632877
+    second: Snowy_Wasteland_Asset_pack_24
+  - first:
+      213: -2927640248295368220
+    second: Snowy_Wasteland_Asset_pack_25
+  - first:
+      213: 4428097872609227616
+    second: Snowy_Wasteland_Asset_pack_26
+  - first:
+      213: -6169051587714577684
+    second: Snowy_Wasteland_Asset_pack_27
+  - first:
+      213: -2982372726646699599
+    second: Snowy_Wasteland_Asset_pack_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Snowy_Wasteland_Asset_pack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 159
+        width: 273
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 553b722672c0a9f20800000000000000
+      internalID: 3430067429486080853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy_Wasteland_Asset_pack_1
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 79
+        width: 48
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb89c2cc0d8dd8050800000000000000
+      internalID: 5804533886040709307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy_Wasteland_Asset_pack_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 79
+        width: 40
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b7d3d64bb630ca10800000000000000
+      internalID: 1927600818489644983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy_Wasteland_Asset_pack_3
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 79
+        width: 41
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53ca68271a1429450800000000000000
+      internalID: 6094005407452671029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy_Wasteland_Asset_pack_4
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 79
+        width: 33
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86e6859f5da65f080800000000000000
+      internalID: -9154293200316764568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy_Wasteland_Asset_pack_5
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 79
+        width: 33
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da3cae6f6097702c0800000000000000
+      internalID: -4465467434695212115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy_Wasteland_Asset_pack_6
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 79
+        width: 42
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb2133842ea7425f0800000000000000
+      internalID: -782365322963119425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy_Wasteland_Asset_pack_7
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 79
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7e4d10508cb72650800000000000000
+      internalID: 6208137870639451771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy_Wasteland_Asset_pack_8
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 79
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2d6a0485ce1f61c0800000000000000
+      internalID: -4508350868301910739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy_Wasteland_Asset_pack_9
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 79
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cca6c14d99ef8190800000000000000
+      internalID: -7957885154917700414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy_Wasteland_Asset_pack_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 47
+        width: 35
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa699f2806dbe42e0800000000000000
+      internalID: -2139564550742501713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy_Wasteland_Asset_pack_11
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 47
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d45186020a2d4210800000000000000
+      internalID: 1318756454076863696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy_Wasteland_Asset_pack_12
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 47
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9913fa152964278c0800000000000000
+      internalID: -4003059524529344103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy_Wasteland_Asset_pack_13
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 47
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3405c85de24e2d2d0800000000000000
+      internalID: -3255288690833076157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy_Wasteland_Asset_pack_14
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 47
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6d54c236be2dd880800000000000000
+      internalID: -8584653954627642001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy_Wasteland_Asset_pack_15
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 47
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 047a70d6bea8d77f0800000000000000
+      internalID: -613181230501353664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy_Wasteland_Asset_pack_16
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 47
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e5be81dadf010710800000000000000
+      internalID: 1657623570342131169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy_Wasteland_Asset_pack_17
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 50
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f19eebc66da92090800000000000000
+      internalID: -8058719401183112715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy_Wasteland_Asset_pack_18
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 54
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66b4d31588148c050800000000000000
+      internalID: 5820974572110695270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy_Wasteland_Asset_pack_19
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 52
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b19a24e752aaf3f0800000000000000
+      internalID: -866201479941549646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy_Wasteland_Asset_pack_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 113
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9617b3001959ac4c0800000000000000
+      internalID: -4266433246973431447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy_Wasteland_Asset_pack_21
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 15
+        width: 146
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e69cebce20258aa40800000000000000
+      internalID: 5379639927409396078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy_Wasteland_Asset_pack_22
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 0
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca1387de9f9aba970800000000000000
+      internalID: 8767287990502830508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy_Wasteland_Asset_pack_23
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 15
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 582720fdf1d256ea0800000000000000
+      internalID: -5880244123553598843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy_Wasteland_Asset_pack_24
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 15
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2fcd5840a89bce60800000000000000
+      internalID: 7983642578620632877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy_Wasteland_Asset_pack_25
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 15
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e9d73a94beee57d0800000000000000
+      internalID: -2927640248295368220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy_Wasteland_Asset_pack_26
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 15
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0633987dd83c37d30800000000000000
+      internalID: 4428097872609227616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy_Wasteland_Asset_pack_27
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 15
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea86391440236aa0800000000000000
+      internalID: -6169051587714577684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy_Wasteland_Asset_pack_28
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 0
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b909607ecb7c96d0800000000000000
+      internalID: -2982372726646699599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Snowy_Wasteland_Asset_pack_0: 3430067429486080853
+      Snowy_Wasteland_Asset_pack_1: 5804533886040709307
+      Snowy_Wasteland_Asset_pack_10: -2139564550742501713
+      Snowy_Wasteland_Asset_pack_11: 1318756454076863696
+      Snowy_Wasteland_Asset_pack_12: -4003059524529344103
+      Snowy_Wasteland_Asset_pack_13: -3255288690833076157
+      Snowy_Wasteland_Asset_pack_14: -8584653954627642001
+      Snowy_Wasteland_Asset_pack_15: -613181230501353664
+      Snowy_Wasteland_Asset_pack_16: 1657623570342131169
+      Snowy_Wasteland_Asset_pack_17: -8058719401183112715
+      Snowy_Wasteland_Asset_pack_18: 5820974572110695270
+      Snowy_Wasteland_Asset_pack_19: -866201479941549646
+      Snowy_Wasteland_Asset_pack_2: 1927600818489644983
+      Snowy_Wasteland_Asset_pack_20: -4266433246973431447
+      Snowy_Wasteland_Asset_pack_21: 5379639927409396078
+      Snowy_Wasteland_Asset_pack_22: 8767287990502830508
+      Snowy_Wasteland_Asset_pack_23: -5880244123553598843
+      Snowy_Wasteland_Asset_pack_24: 7983642578620632877
+      Snowy_Wasteland_Asset_pack_25: -2927640248295368220
+      Snowy_Wasteland_Asset_pack_26: 4428097872609227616
+      Snowy_Wasteland_Asset_pack_27: -6169051587714577684
+      Snowy_Wasteland_Asset_pack_28: -2982372726646699599
+      Snowy_Wasteland_Asset_pack_3: 6094005407452671029
+      Snowy_Wasteland_Asset_pack_4: -9154293200316764568
+      Snowy_Wasteland_Asset_pack_5: -4465467434695212115
+      Snowy_Wasteland_Asset_pack_6: -782365322963119425
+      Snowy_Wasteland_Asset_pack_7: 6208137870639451771
+      Snowy_Wasteland_Asset_pack_8: -4508350868301910739
+      Snowy_Wasteland_Asset_pack_9: -7957885154917700414
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

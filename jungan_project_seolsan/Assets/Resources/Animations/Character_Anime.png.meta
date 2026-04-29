@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: 1cf8b1d852ed14041a7a56fc0560ba57
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4215102634678709095
+    second: Character_Anime_0
+  - first:
+      213: -3018419235512195033
+    second: Character_Anime_1
+  - first:
+      213: -8411003589987773256
+    second: Character_Anime_2
+  - first:
+      213: -6983570931106081301
+    second: Character_Anime_3
+  - first:
+      213: 5817275963959062392
+    second: Character_Anime_4
+  - first:
+      213: 2079080646802018553
+    second: Character_Anime_5
+  - first:
+      213: -176179609847547524
+    second: Character_Anime_6
+  - first:
+      213: -3413940337766025623
+    second: Character_Anime_7
+  - first:
+      213: -6062989007366661630
+    second: Character_Anime_8
+  - first:
+      213: -8154333672437082101
+    second: Character_Anime_9
+  - first:
+      213: 1592144528675659440
+    second: Character_Anime_10
+  - first:
+      213: 1599562459697640985
+    second: Character_Anime_11
+  - first:
+      213: 6667755736448204334
+    second: Character_Anime_12
+  - first:
+      213: -8759357068941579810
+    second: Character_Anime_13
+  - first:
+      213: 512163207081098745
+    second: Character_Anime_14
+  - first:
+      213: -8540816755721369907
+    second: Character_Anime_15
+  - first:
+      213: -7047728449684465245
+    second: Character_Anime_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Character_Anime_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 939
+        width: 174
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76b66df738d0f7a30800000000000000
+      internalID: 4215102634678709095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Anime_1
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 939
+        width: 151
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 728e61492bb6c16d0800000000000000
+      internalID: -3018419235512195033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Anime_2
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 939
+        width: 151
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b45e3e5ccc164b80800000000000000
+      internalID: -8411003589987773256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Anime_3
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 939
+        width: 187
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be59dab1d3f551f90800000000000000
+      internalID: -6983570931106081301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Anime_4
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 653
+        width: 151
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87fa2300bad1bb050800000000000000
+      internalID: 5817275963959062392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Anime_5
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 653
+        width: 151
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f0160435d06adc10800000000000000
+      internalID: 2079080646802018553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Anime_6
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 653
+        width: 151
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c79be5a04951e8df0800000000000000
+      internalID: -176179609847547524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Anime_7
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 653
+        width: 151
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9663413c95f3f90d0800000000000000
+      internalID: -3413940337766025623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Anime_8
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 360
+        width: 150
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20adfc2fe9febdba0800000000000000
+      internalID: -6062989007366661630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Anime_9
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 360
+        width: 163
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b08916a7abcf5de80800000000000000
+      internalID: -8154333672437082101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Anime_10
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 376
+        width: 165
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0be5bc6630f681610800000000000000
+      internalID: 1592144528675659440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Anime_11
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 375
+        width: 186
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 916f35e0599c23610800000000000000
+      internalID: 1599562459697640985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Anime_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 182
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2e7118d380a88c50800000000000000
+      internalID: 6667755736448204334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Anime_13
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 122
+        width: 183
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed92ee4a723807680800000000000000
+      internalID: -8759357068941579810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Anime_14
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 96
+        width: 156
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fdf71929b19b1700800000000000000
+      internalID: 512163207081098745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Anime_15
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 0
+        width: 186
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc6068f696ce87980800000000000000
+      internalID: -8540816755721369907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Anime_16
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 3
+        width: 78
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a99423c050713e90800000000000000
+      internalID: -7047728449684465245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Character_Anime_0: 4215102634678709095
+      Character_Anime_1: -3018419235512195033
+      Character_Anime_10: 1592144528675659440
+      Character_Anime_11: 1599562459697640985
+      Character_Anime_12: 6667755736448204334
+      Character_Anime_13: -8759357068941579810
+      Character_Anime_14: 512163207081098745
+      Character_Anime_15: -8540816755721369907
+      Character_Anime_16: -7047728449684465245
+      Character_Anime_2: -8411003589987773256
+      Character_Anime_3: -6983570931106081301
+      Character_Anime_4: 5817275963959062392
+      Character_Anime_5: 2079080646802018553
+      Character_Anime_6: -176179609847547524
+      Character_Anime_7: -3413940337766025623
+      Character_Anime_8: -6062989007366661630
+      Character_Anime_9: -8154333672437082101
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

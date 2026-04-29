@@ -2,6 +2,7 @@ using System.Collections;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class Boss : MonoBehaviour
 {
@@ -213,6 +214,7 @@ public class Boss : MonoBehaviour
 
         if (hp <= 0)
         {
+            PlayerController.Score += 1500000f;
             SceneManager.LoadScene("Ending_Scene");
             yield break;
         }

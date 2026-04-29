@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: 8397c4adc5c93d446ab43658de7c6973
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4834890125641996021
+    second: Player_Anime_Sheet_0
+  - first:
+      213: 6398036127032525720
+    second: Player_Anime_Sheet_1
+  - first:
+      213: 3578516315945445455
+    second: Player_Anime_Sheet_2
+  - first:
+      213: 317470450181290502
+    second: Player_Anime_Sheet_3
+  - first:
+      213: -7926783360173041970
+    second: Player_Anime_Sheet_4
+  - first:
+      213: 7536161326528376357
+    second: Player_Anime_Sheet_5
+  - first:
+      213: -5524946163177860095
+    second: Player_Anime_Sheet_6
+  - first:
+      213: -5215008715664391058
+    second: Player_Anime_Sheet_7
+  - first:
+      213: 804899442248243022
+    second: Player_Anime_Sheet_8
+  - first:
+      213: -1881312456582476965
+    second: Player_Anime_Sheet_9
+  - first:
+      213: -6884912809092473297
+    second: Player_Anime_Sheet_10
+  - first:
+      213: 7946052662605025733
+    second: Player_Anime_Sheet_11
+  - first:
+      213: -7891720538427304818
+    second: Player_Anime_Sheet_12
+  - first:
+      213: 1196794059716528453
+    second: Player_Anime_Sheet_13
+  - first:
+      213: 8924448297963828028
+    second: Player_Anime_Sheet_14
+  - first:
+      213: -5759208561587118226
+    second: Player_Anime_Sheet_15
+  - first:
+      213: 600008431500893623
+    second: Player_Anime_Sheet_16
+  - first:
+      213: 233577000491167644
+    second: Player_Anime_Sheet_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Player_Anime_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 937
+        width: 174
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f65fe2f3faf81340800000000000000
+      internalID: 4834890125641996021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Anime_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 937
+        width: 151
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 893c3e395f36ac850800000000000000
+      internalID: 6398036127032525720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Anime_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 938
+        width: 150
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f482eda21a179a130800000000000000
+      internalID: 3578516315945445455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Anime_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 938
+        width: 187
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60a3db141b1e76400800000000000000
+      internalID: 317470450181290502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Anime_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 653
+        width: 151
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec6986528886ef190800000000000000
+      internalID: -7926783360173041970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Anime_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 653
+        width: 150
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52ea2c55cc2d59860800000000000000
+      internalID: 7536161326528376357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Anime_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 638
+        width: 151
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10450acacb27353b0800000000000000
+      internalID: -5524946163177860095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Anime_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 653
+        width: 151
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e640242143190a7b0800000000000000
+      internalID: -5215008715664391058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Anime_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 637
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e47dd1737c39b2b00800000000000000
+      internalID: 804899442248243022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Anime_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 360
+        width: 150
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5b42e1d94c34e5e0800000000000000
+      internalID: -1881312456582476965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Anime_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 359
+        width: 162
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2e91882740e370a0800000000000000
+      internalID: -6884912809092473297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Anime_Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 376
+        width: 165
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c19e11fbcc064e60800000000000000
+      internalID: 7946052662605025733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Anime_Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 375
+        width: 186
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e84d2608bf9fa7290800000000000000
+      internalID: -7891720538427304818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Anime_Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 182
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54983be3bdddb9010800000000000000
+      internalID: 1196794059716528453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Anime_Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 122
+        width: 182
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c33397871720adb70800000000000000
+      internalID: 8924448297963828028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Anime_Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 96
+        width: 156
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6f163ba35e2310b0800000000000000
+      internalID: -5759208561587118226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Anime_Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 0
+        width: 186
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bd99dd4d78a35800800000000000000
+      internalID: 600008431500893623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Anime_Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 3
+        width: 78
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9f2afd5b05dd3300800000000000000
+      internalID: 233577000491167644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Player_Anime_Sheet_0: 4834890125641996021
+      Player_Anime_Sheet_1: 6398036127032525720
+      Player_Anime_Sheet_10: -6884912809092473297
+      Player_Anime_Sheet_11: 7946052662605025733
+      Player_Anime_Sheet_12: -7891720538427304818
+      Player_Anime_Sheet_13: 1196794059716528453
+      Player_Anime_Sheet_14: 8924448297963828028
+      Player_Anime_Sheet_15: -5759208561587118226
+      Player_Anime_Sheet_16: 600008431500893623
+      Player_Anime_Sheet_17: 233577000491167644
+      Player_Anime_Sheet_2: 3578516315945445455
+      Player_Anime_Sheet_3: 317470450181290502
+      Player_Anime_Sheet_4: -7926783360173041970
+      Player_Anime_Sheet_5: 7536161326528376357
+      Player_Anime_Sheet_6: -5524946163177860095
+      Player_Anime_Sheet_7: -5215008715664391058
+      Player_Anime_Sheet_8: 804899442248243022
+      Player_Anime_Sheet_9: -1881312456582476965
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

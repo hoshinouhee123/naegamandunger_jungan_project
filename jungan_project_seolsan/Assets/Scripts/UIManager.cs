@@ -63,4 +63,10 @@ public class UIManager : MonoBehaviour
         // 메인 화면으로 이동
         SceneManager.LoadScene("MainMenu_Scene");
     }
+
+    public void LeaderBoardButtonAction()
+    {
+        // 메인 화면으로 이동
+        SceneManager.LoadScene("LeaderBoard_Scene");
+    }
 }

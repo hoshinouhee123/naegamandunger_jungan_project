@@ -11,6 +11,7 @@ TagManager:
   - Ground
   - Snowball
   - Boss
+  - Item
   layers:
   - Default
   - TransparentFX
