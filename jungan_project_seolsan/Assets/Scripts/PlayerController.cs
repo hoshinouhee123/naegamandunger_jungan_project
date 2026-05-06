@@ -154,13 +154,13 @@ public class PlayerController : MonoBehaviour
 
         if (collision.CompareTag("Finish"))
         {
+            Score += 450f;
+
             HighScore.TrySet(SceneManager.GetActiveScene().buildIndex, (int)Score);
             collision.GetComponent<LevelObject>().MoveToNextLevel();
+            
         }
-        if (collision.CompareTag("Finish"))
-        {
-            Score += 450f;
-        }
+       
     }
 
     // 아이템 스크립트에서 이 함수를 부릅니다.
