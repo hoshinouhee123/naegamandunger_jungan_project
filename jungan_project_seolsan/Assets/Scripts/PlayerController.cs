@@ -157,10 +157,20 @@ public class PlayerController : MonoBehaviour
             Score += 450f;
 
             HighScore.TrySet(SceneManager.GetActiveScene().buildIndex, (int)Score);
+            StageResultSaver.SaveStage(SceneManager.GetActiveScene().buildIndex, (int)Score);
             collision.GetComponent<LevelObject>().MoveToNextLevel();
             
         }
-       
+
+        if (collision.CompareTag("Item"))
+        {
+            Score += collision.GetComponent<ItemObject>().GetPoint();
+
+            HighScore.TrySet(SceneManager.GetActiveScene().buildIndex, (int)Score);
+            StageResultSaver.SaveStage(SceneManager.GetActiveScene().buildIndex, (int)Score);
+
+        }
+
     }
 
     // 아이템 스크립트에서 이 함수를 부릅니다.

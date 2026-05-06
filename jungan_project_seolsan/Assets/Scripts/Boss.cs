@@ -65,6 +65,8 @@ public class Boss : MonoBehaviour
 
     public TMP_Text bossHpText;
 
+    public static float Score;
+
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -214,7 +216,11 @@ public class Boss : MonoBehaviour
 
         if (hp <= 0)
         {
-            PlayerController.Score += 1500000f;
+            Score += 150000f;
+
+            HighScore.TrySet(SceneManager.GetActiveScene().buildIndex, (int)Score);
+            StageResultSaver.SaveStage(SceneManager.GetActiveScene().buildIndex, (int)Score);
+
             SceneManager.LoadScene("Ending_Scene");
             yield break;
         }

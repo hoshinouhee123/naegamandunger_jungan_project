@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8540107155169675964}
   - component: {fileID: 8329969013871595902}
   - component: {fileID: 5761231847460638335}
+  - component: {fileID: 2255686058191186221}
   m_Layer: 0
   m_Name: MujuckBoxBoss
   m_TagString: Item
@@ -179,3 +180,16 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &2255686058191186221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2307758749190470539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4740bb18396ac2b46b9a63ecf037a698, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ItemObject
+  data: {fileID: 11400000, guid: 4e6629bf79c775545a0eb4e75f92ee11, type: 2}

@@ -60781,14 +60781,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpeedUPBox
       objectReference: {fileID: 0}
-    - target: {fileID: 7934919308424272739, guid: 471eae4c86611de459951c5b61cf5e72, type: 3}
-      propertyPath: buffDuration
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7934919308424272739, guid: 471eae4c86611de459951c5b61cf5e72, type: 3}
-      propertyPath: speedBoostAmount
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 8087618810279177002, guid: 471eae4c86611de459951c5b61cf5e72, type: 3}
       propertyPath: m_LocalPosition.x
       value: 16.488922

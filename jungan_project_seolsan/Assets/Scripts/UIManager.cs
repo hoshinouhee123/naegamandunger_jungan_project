@@ -7,6 +7,8 @@ public class UIManager : MonoBehaviour
 
     public GameObject StagePanel;
 
+    public GameObject RankPanel;
+
     public void GameStartButtonAction()
     {
         // 본인 첫 씬 이름 쓰기
@@ -66,7 +68,19 @@ public class UIManager : MonoBehaviour
 
     public void LeaderBoardButtonAction()
     {
-        // 메인 화면으로 이동
+        
         SceneManager.LoadScene("LeaderBoard_Scene");
+    }
+
+    public void RankBoardButtonAction()
+    {
+
+        RankPanel.SetActive(true);
+    }
+
+    public void RankBoardQuitButtonAction()
+    {
+
+        RankPanel.SetActive(false);
     }
 }

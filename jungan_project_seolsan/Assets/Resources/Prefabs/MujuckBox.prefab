@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4455656432500974510}
   - component: {fileID: 1911267445231448068}
   - component: {fileID: 7269028375632824447}
+  - component: {fileID: 7872801119128570869}
   m_Layer: 0
   m_Name: MujuckBox
   m_TagString: Item
@@ -151,3 +152,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b52a808393fc284a906a3a44ef45371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InvincibilityItem
+--- !u!114 &7872801119128570869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6312780997687037035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4740bb18396ac2b46b9a63ecf037a698, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ItemObject
+  data: {fileID: 11400000, guid: 4e6629bf79c775545a0eb4e75f92ee11, type: 2}

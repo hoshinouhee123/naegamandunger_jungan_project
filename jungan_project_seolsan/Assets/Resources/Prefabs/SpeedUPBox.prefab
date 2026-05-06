@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7427903292762792336}
   - component: {fileID: 3516234136017726745}
   - component: {fileID: 7934919308424272739}
+  - component: {fileID: 1685515085908128762}
   m_Layer: 0
   m_Name: SpeedUPBox
   m_TagString: Item
@@ -153,3 +154,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SpeedItem
   speedBoostAmount: 3
   buffDuration: 5
+--- !u!114 &1685515085908128762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800132824007285400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4740bb18396ac2b46b9a63ecf037a698, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ItemObject
+  data: {fileID: 11400000, guid: 262a86f548b09de4c9c7105ca46644be, type: 2}

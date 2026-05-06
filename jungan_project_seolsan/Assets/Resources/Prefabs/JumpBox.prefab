@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8273112522865799052}
   - component: {fileID: 9132304775306357192}
   - component: {fileID: 1306023921037397014}
+  - component: {fileID: 8567968482217797144}
   m_Layer: 0
   m_Name: JumpBox
   m_TagString: Item
@@ -153,3 +154,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::JumpBoostItem
   boostAmount: 3
   duration: 3
+--- !u!114 &8567968482217797144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 948879884472634236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4740bb18396ac2b46b9a63ecf037a698, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ItemObject
+  data: {fileID: 11400000, guid: e0a68fe0c814b814a9640bdcb94b3748, type: 2}

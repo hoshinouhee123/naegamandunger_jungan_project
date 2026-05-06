@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5957346622583180189}
   - component: {fileID: 1925314824347292842}
   - component: {fileID: 9034757302172399287}
+  - component: {fileID: 3953997852612764171}
   m_Layer: 0
   m_Name: JumpBoxBoss
   m_TagString: Item
@@ -181,3 +182,16 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &3953997852612764171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8436480362120012414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4740bb18396ac2b46b9a63ecf037a698, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ItemObject
+  data: {fileID: 11400000, guid: e0a68fe0c814b814a9640bdcb94b3748, type: 2}
